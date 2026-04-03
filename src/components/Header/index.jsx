@@ -1,6 +1,6 @@
-import viteLogo from '../../../public/vite.svg'
-import reactLogo from '../../../assets/react.svg'
-import './styles.css'
+import viteLogo from '../../../public/icons.svg'
+import reactLogo from '../../assets/react.svg'
+import './style.css'
 
 export default function Header() {
     return (
