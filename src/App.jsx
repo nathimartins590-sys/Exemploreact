@@ -1,5 +1,8 @@
+import { Route, Routes } from 'react-router-dom';
 import './App.css'
 import Header from "./components/Header";
+import Home from './pages/Home';
+import About from './pages/About';
 // import Footer from "./components/footer"
 // import Form from "./components/form"
 // import List from "./components/lists"
@@ -9,12 +12,12 @@ function App() {
     return (
         <>
         <Header />
-         <main>
-            {/* <List />
-            <Video />
-            <Form /> */}
-         </main>
-         {/* <Footer /> */}
+         <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/about" element={<About />}/>
+         </Routes>
+        {/* <Footer/> */}
+
          </>
     )
 }
