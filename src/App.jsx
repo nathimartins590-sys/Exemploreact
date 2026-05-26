@@ -13,16 +13,16 @@ import ScriptAtividade1 from './pages/ScriptAtividade1';
 function App() {
     return (
         <>
-        <Header />
-         <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/about" element={<About />}/>
+            <Header />
+            <Routes>
+                <Route path="/" element={<Home />} />
+                {/* <Route path="/about" element={<About />}/>
             <Route path="/signup" element={<SignUp />}/>
-            <Route path="/scriptatividade1" element={<ScriptAtividade1 />}/>
-         </Routes>
-        {/* <Footer/> */}
+            <Route path="/scriptatividade1" element={<ScriptAtividade1 />}/> */}
+            </Routes>
+            {/* <Footer/> */}
 
-         </>
+        </>
     )
 }
 
